@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52e81887-0971-4ab5-928b-28ec60bcf399" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TransferRX/FormPrescription/formPrescription.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TransferRX/FormPrescription/formPrescription.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +88,7 @@
       <workItem from="1617385212950" duration="5225000" />
       <workItem from="1617507916927" duration="1922000" />
       <workItem from="1617510994769" duration="4832000" />
-      <workItem from="1617522378092" duration="10792000" />
+      <workItem from="1617522378092" duration="11469000" />
     </task>
     <servers />
   </component>
