@@ -1,0 +1,41 @@
+@import "./src/scss/utils/mixins";
+
+.sectionStyle{
+  padding: 93px 0;
+  text-align: center;
+ h2{
+   font-weight: 600;
+   font-size: 60px;
+   line-height: 90px;
+   text-align: center;
+   color: #FFFFFF;
+   margin-bottom: 8px;
+   @include mediaWidth_770{
+     font-size: 50px;
+     line-height: 60px;
+   }
+ }
+  p{
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 37px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 45px;
+  }
+  a{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 13px 19px 10px;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    transition: .3s;
+    &:hover{
+      transition: .3s;
+      background: #F07F217A;
+    }
+  }
+}

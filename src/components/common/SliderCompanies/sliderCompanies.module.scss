@@ -1,0 +1,14 @@
+@import "./src/scss/utils/mixins";
+
+
+
+.link-company{
+  filter: grayscale(1);
+  img{
+    max-height: 91px;
+    margin: 0 auto;
+  }
+  &:hover{
+    filter: grayscale(0);
+  }
+}

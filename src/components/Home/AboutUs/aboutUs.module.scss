@@ -1,0 +1,75 @@
+@import "./src/scss/utils/mixins";
+
+.flexStyles{
+  margin-bottom: 100px;
+  @include mediaWidth_992{
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 15px;
+  }
+}
+
+
+.sectionAbout{
+  padding-top: 62px;
+  padding-bottom: 78px;
+  max-width: 1903px;
+  margin: 0 auto;
+}
+
+
+
+.block-images{
+  max-width: 880px;
+  margin-right: 70px;
+  @include mediaWidth_992{
+    margin-right: 0;
+  }
+  .slick-slide{
+    img{
+      max-width: 100%;
+    }
+  }
+}
+
+.block-texts{
+max-width: 677px;
+  .pretitle{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #979797;
+    margin-bottom: 30px;
+  }
+  .title{
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 48px;
+    color: #0C1423;
+    margin-bottom: 17px;
+  }
+  .text{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #535353;
+    margin-bottom: 35px;
+  }
+
+  .link{
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0C1423;
+    padding: 15px 30px 12px;
+    border-radius: 6px;
+    border: 2px solid rgba(12, 20, 35, 0.07);
+    cursor: pointer;
+    transition: .3s;
+    &:hover{
+      color: #fff;
+      background: #F07F21;
+    }
+  }
+}

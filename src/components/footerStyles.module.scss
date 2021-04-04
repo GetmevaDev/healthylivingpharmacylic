@@ -1,0 +1,33 @@
+@import "./src/scss/utils/mixins";
+
+
+.flexStyles{
+  justify-content: space-around;
+  padding-bottom: 88px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    @include mediaWidth_820{
+      flex-wrap: wrap;
+    }
+
+}
+
+.lastBlock{
+  justify-content: space-between;
+  align-items: center;
+  @include mediaWidth_820{
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+}
+
+.site-footer{
+  padding-top: 80px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.footerIcon{
+  @include mediaWidth_820{
+   display: inline-block;
+    margin-bottom: 20px;
+  }
+}

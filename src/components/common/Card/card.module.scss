@@ -1,0 +1,100 @@
+@import "./src/scss/utils/mixins";
+
+
+.sectionCars{
+  padding-top: 50px;
+  padding-bottom: 62px;
+  @include mediaWidth_1366{
+    padding-top: 130px;
+  }
+}
+
+
+.flexStyles{
+  justify-content: space-between;
+  @include mediaWidth_992{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 78px;
+  padding-left: 34px;
+  padding-right: 34px;
+  padding-bottom: 61px;
+  flex-basis: 330px;
+  max-width: 358px;
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
+  flex-grow: 1;
+  border-radius: 6px;
+  transition: .3s;
+  &:hover{
+    transition: .3s;
+    background: #0F9547;
+
+    .icon{
+      display: none !important;
+    }
+    .icon-hover{
+      display: inline-block !important;
+    }
+    .titleCard,
+    .textCard{
+      color: #fff;
+    }
+    .cardLink{
+      color: #fff;
+      background: #F07F21;
+    }
+  }
+
+
+
+
+  .image-icon{
+    margin-bottom: 31px;
+    text-align: center;
+    .icon{
+      display: inline-block;
+    }
+    .icon-hover{
+      display: none;
+    }
+    img{
+      max-width: 90px;
+    }
+  }
+
+  .titleCard{
+    margin-bottom: 32px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    color: #0C1423;
+  }
+
+  .textCard{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7F7F7F;
+    margin-bottom: 37px;
+  }
+
+  .cardLink{
+    margin-top: auto;
+    padding: 15px 43px 12px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0C1423;
+    border-radius: 6px;
+    border: 2px solid rgba(12,20,35,.07);
+  }
+}

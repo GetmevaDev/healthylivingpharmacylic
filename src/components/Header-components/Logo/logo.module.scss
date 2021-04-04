@@ -1,0 +1,18 @@
+@import "./src/scss/utils/mixins";
+
+
+
+.logo{
+  padding: 27px 33px;
+  border-radius: 0px 0px 10px 10px;
+  background: #fff;
+  max-width: 298px;
+  @include mediaWidth_480{
+    padding: 7px 13px;
+    max-width: 198px;
+  }
+  img{
+    max-width: 100%;
+
+  }
+}

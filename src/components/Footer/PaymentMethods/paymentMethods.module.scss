@@ -1,0 +1,28 @@
+
+
+.flexStyle{
+  align-items: center;
+  .image{
+    display: block;
+    flex-grow: 4;
+    width: 100% !important;
+    height: 54px;
+    img{
+      width: 82px !important;
+    }
+  }
+}
+
+.title{
+  font-weight: 500 !important;
+  font-size: 20px !important;
+  line-height: 30px !important;
+  color: #0C1423 !important;
+  margin-bottom: 0 !important;
+}
+
+
+.border{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 23px;
+}

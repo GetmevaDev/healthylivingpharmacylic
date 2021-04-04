@@ -1,0 +1,27 @@
+@import "./src/scss/utils/mixins";
+
+
+.flexStyles{
+  justify-content: space-around;
+    @include mediaWidth_992{
+      flex-wrap: wrap;
+    }
+}
+
+
+.sectionContacts{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: #F9F9F9;
+  .contact{
+    padding-right: 15px;
+  }
+  .map{
+    max-width: 661px;
+    flex-grow: 1;
+    iframe{
+      border-radius: 10px;
+      width: 100%;
+    }
+  }
+}

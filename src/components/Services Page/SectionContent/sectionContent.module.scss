@@ -1,0 +1,17 @@
+@import "./src/scss/utils/mixins";
+
+.sectionContent{
+  margin-top: -50px;
+  padding-bottom: 100px;
+  @include mediaWidth_1163{
+    margin-top: 0;
+    padding-top: 100px;
+  }
+}
+
+.flexStyles{
+  justify-content: space-around;
+  @include mediaWidth_1163{
+    flex-wrap: wrap;
+  }
+}

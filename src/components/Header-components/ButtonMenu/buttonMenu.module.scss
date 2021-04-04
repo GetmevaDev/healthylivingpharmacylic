@@ -1,0 +1,32 @@
+@import "./src/scss/utils/mixins";
+
+
+.button{
+box-shadow: none;
+  background: transparent;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #0C1423;
+  z-index: 12;
+  cursor: pointer;
+  @include mediaWidth_424{
+    span{
+      display: none;
+    }
+  }
+  &:focus{
+    box-shadow: none;
+    outline: none;
+    border: none;
+  }
+  &:active{
+    box-shadow: none;
+    outline: none;
+    border: none;
+  }
+  img{
+    margin-left: 21px;
+  }
+}
+

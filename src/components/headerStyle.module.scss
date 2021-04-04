@@ -1,0 +1,98 @@
+@import "./src/scss/utils/mixins";
+
+
+.flexStyles{
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+.siteHeader{
+  position: fixed;
+  width: 100%;
+  z-index: 11;
+  transition: .3s;
+  &[data-active='true']{
+    transition: .3s;
+    background: #fff;
+  }
+
+  @include mediaWidth_700{
+    background: #fff;
+    .socialMedia{
+      display: none;
+    }
+  }
+}
+
+
+
+.navigationMenu{
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  max-width: 580px;
+  z-index: 11;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 0 160px;
+  border-radius: 20px 0px 0px 20px;
+  @include mediaWidth_624{
+    width: 100vw;
+    padding: 0;
+    justify-content: center;
+  }
+  ul{
+    margin: 0;
+    li{
+      margin-bottom: 30px;
+      transition: .3s;
+      &:hover{
+
+
+        .openSubmenu{
+
+          height: 100%;
+          transition: .3s;
+        }
+      }
+      a{
+        font-weight: 600;
+        font-size: 25px;
+        text-align: center;
+        color: #0C1423;
+        transition: .3s;
+        @include mediaWidth_624{
+          font-size: 15px;
+        }
+        &:hover{
+          color: #0F9547;
+          transition: .3s;
+        }
+      }
+
+    }
+  }
+  .submenu{
+    height: 0;
+    overflow: hidden;
+    transition: .3s;
+  }
+
+}
+
+.overlay{
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100vw;
+  height: 100ch;
+  z-index: 10;
+  background: #000000;
+
+  pointer-events: none;
+}
