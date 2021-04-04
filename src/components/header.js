@@ -12,14 +12,6 @@ import * as classes from "./headerStyle.module.scss"
 const Header = ({marginSocialMedia}) => {
 
 
-
-  const popUpSubmenu = {
-  background: '#fff',
-    ":hover": {
-
-    }
-  }
-
   const [handleMenu, setHandleMenu] = useState(false)
   const [scrolled, setScrolled] = useState(false);
 

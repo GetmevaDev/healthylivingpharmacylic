@@ -1,8 +1,7 @@
 import React, {useState} from "react"
-import * as classes from "./FormPrescription/formPrescription.module.scss"
 import Plus from "../../images/plus.svg"
 import { Textarea } from "./Textarea"
-
+import * as classes from "./FormPrescription/formPrescription.module.scss"
 
 
 export class MedicationNames extends React.Component{

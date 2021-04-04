@@ -1,7 +1,6 @@
 import React, { useState } from "react"
-import * as classes from "./FormPrescription/formPrescription.module.scss"
 import Cross from "../../images/Cross.svg"
-
+import * as classes from "./FormPrescription/formPrescription.module.scss"
 
 export function Textarea({onclick}){
 

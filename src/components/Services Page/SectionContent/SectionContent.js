@@ -1,8 +1,7 @@
 import React from "react"
-import * as classes from "./sectionContent.module.scss"
 import { MenuServices } from "../MenuServices/MenuServices"
 import { Content } from "../Content/Content"
-
+import * as classes from "./sectionContent.module.scss"
 
 
 export function SectionContent({data}){

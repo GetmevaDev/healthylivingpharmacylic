@@ -1,14 +1,12 @@
 import * as React from "react"
 import {graphql} from "gatsby"
 import Layout from "../components/layout"
-
-import "../scss/main.scss"
 import SectionHeader from "../components/common/Section-Header/SectionHeader"
 import { Card } from "../components/common/Card/Card"
 import { AboutUs } from "../components/Home/AboutUs/AboutUs"
 import { SectionConsultation } from "../components/common/SectionConsultation/SectionConsultation"
 import { SectionContacts } from "../components/Home/SectionContacts/SectionContacts"
-
+import "../scss/main.scss"
 
 const IndexPage = ({data}) => (
   <Layout marginSocialMedia={50}>

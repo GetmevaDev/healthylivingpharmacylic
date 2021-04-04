@@ -5,8 +5,14 @@ module.exports = {
     author: `@gatsbyjs`,
   },
   plugins: [
+
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
+    `gatsby-plugin-sass`,
+    {
+      resolve: `gatsby-plugin-css-literal-loader`,
+      options: { extension: '.module.scss' },
+    },
 
     {
       resolve: `gatsby-source-filesystem`,
@@ -68,7 +74,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-gatsby-cloud`,
-    `gatsby-plugin-sass`,
+
     `gatsby-plugin-postcss`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline

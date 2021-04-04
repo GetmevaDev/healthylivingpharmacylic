@@ -1,8 +1,7 @@
 import * as React from "react"
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-
+import "../scss/main.scss"
 const NotFoundPage = () => (
   <Layout>
     <SEO title="404: Not found" />

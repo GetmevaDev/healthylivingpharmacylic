@@ -1,12 +1,11 @@
 import * as React from "react"
 import {graphql} from "gatsby"
 import Layout from "../components/layout"
-
-import "../scss/main.scss"
 import SectionHeader from "../components/common/Section-Header/SectionHeader"
 import { SectionConsultation } from "../components/common/SectionConsultation/SectionConsultation"
 import { Card } from "../components/common/Card/Card"
 
+import "../scss/main.scss"
 
 const AboutHLP = ({data}) =>{
 

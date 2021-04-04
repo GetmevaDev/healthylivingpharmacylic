@@ -1,10 +1,9 @@
 import React, { useRef, useState } from "react"
 import {graphql, useStaticQuery} from "gatsby"
-import * as classes from "./formPrescription.module.scss"
 import DndUpload from "../dndUpload"
 import { MedicationNames } from "../MedicationNames"
+import * as classes from "./formPrescription.module.scss"
 
-const DEFAULT_MAX_FILE_SIZE_IN_BYTES = 500000;
 
 export function FormPrescription(){
 

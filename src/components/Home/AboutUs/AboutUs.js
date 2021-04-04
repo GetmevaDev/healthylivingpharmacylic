@@ -1,13 +1,9 @@
 import React from "react"
 import {graphql, useStaticQuery, Link} from "gatsby"
-import Slider from "react-slick";
 import ReactMarkdown from 'react-markdown'
-
-
-
-
-import * as classes from "./aboutUs.module.scss"
+import Slider from "react-slick";
 import { SliderCompanies } from "../../common/SliderCompanies/SliderCompanies"
+import * as classes from "./aboutUs.module.scss"
 
 export function AboutUs(){
 

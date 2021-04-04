@@ -1,8 +1,7 @@
 import React from "react"
-import * as classes from "./sectionContacts.module.scss"
 import {graphql, useStaticQuery} from "gatsby"
 import { Contacts } from "../../common/Contacts/Contacts"
-
+import * as classes from "./sectionContacts.module.scss"
 
 
 export function SectionContacts(){

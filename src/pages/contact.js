@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import SectionHeader from "../components/common/Section-Header/SectionHeader"
 import { Contacts } from "../components/common/Contacts/Contacts"
 import ContactForm from "../components/ContactUs/ContactForm/ContactForm"
-
+import "../scss/main.scss"
 
 
 

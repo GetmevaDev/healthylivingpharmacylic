@@ -1,6 +1,5 @@
 import React from "react"
 import { graphql, Link, useStaticQuery } from "gatsby"
-
 import * as classes from "./storeHours.module.scss"
 
 

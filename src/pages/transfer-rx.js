@@ -3,7 +3,7 @@ import {graphql} from "gatsby"
 import Layout from "../components/layout"
 import SectionHeader from "../components/common/Section-Header/SectionHeader"
 import { FormPrescription } from "../components/TransferRX/FormPrescription/FormPrescription"
-
+import "../scss/main.scss"
 
 const TransferRX = ({data}) => {
 
