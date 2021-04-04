@@ -2,28 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52e81887-0971-4ab5-928b-28ec60bcf399" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/gatsby-browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-browser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-node.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-node.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/StoreHours/StoreHours.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/StoreHours/StoreHours.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Head.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Head.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/AboutUs/AboutUs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/AboutUs/AboutUs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/SectionContacts/SectionContacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/SectionContacts/SectionContacts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Services Page/SectionContent/SectionContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Services Page/SectionContent/SectionContent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TransferRX/FormPrescription/FormPrescription.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TransferRX/FormPrescription/FormPrescription.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TransferRX/MedicationNames.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TransferRX/MedicationNames.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TransferRX/Textarea.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TransferRX/Textarea.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Card/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Card/Card.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Card/card.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/404.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/404.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/about-hlp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about-hlp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/transfer-rx.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/transfer-rx.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +90,7 @@
       <workItem from="1617385212950" duration="5225000" />
       <workItem from="1617507916927" duration="1922000" />
       <workItem from="1617510994769" duration="4832000" />
-      <workItem from="1617522378092" duration="8743000" />
+      <workItem from="1617522378092" duration="10792000" />
     </task>
     <servers />
   </component>
